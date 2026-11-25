@@ -33,8 +33,8 @@ class ProjectsSection extends StatelessWidget {
     ]),
     'Core banking integration': FlowDiagram([
       [FlowNode('Banking app', 'Customer channel')],
-      [FlowNode('T24', 'Core banking', highlight: true)],
       [FlowNode('Postilion', 'Payment switch')],
+      [FlowNode('T24', 'Core banking', highlight: true)],
     ]),
   };
 
